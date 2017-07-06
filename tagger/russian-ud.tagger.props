@@ -1,0 +1,53 @@
+## tagger training invoked at Sat Mar 25 18:49:37 PST 2017 with arguments:
+model = russian-ud.tagger
+arch = left3words, words(-2,2), biwords(-2,2), unicodeshapes(-2,2), order(2), prefix(3), suffix(4)
+trainFile = tagged-russian.tsv
+closedClassTags = 
+closedClassTagThreshold = 100
+curWordMinFeatureThresh = 2
+debug = false
+debugPrefix = 
+encoding = UTF-8
+iterations = 100
+lang = 
+learnClosedClassTags = false
+minFeatureThresh = 2
+nthreads = 4
+openClassTags = NOUN VERB ADJ X ADV PROPN PRON NUM SYM parataxis
+outputFile = 
+outputFormat = 
+outputFormatOptions = 
+rareWordThresh = 5
+rareWordMinFeatureThresh = 7
+regL1 = 0.725
+search = owlqn2
+sigmaSquared = 0.5
+sgml = false
+tagInside = 
+tagSeparator = _
+tokenizerFactory = 
+tokenizerOptions = 
+tokenize = false
+verbose = false
+verboseResults = true
+veryCommonWordThresh = 250
+wordFunction = 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   
