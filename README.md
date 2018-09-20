@@ -24,6 +24,6 @@ Obligatory Launcher parameters are the following:
 java -Xmx8g edu.stanford.nlp.international.russian.process.Launcher -tagger /home/comp/eclipse-workspace/CoreNLP/russian-ud-pos.tagger -taggerMF /home/comp/eclipse-workspace/CoreNLP/russian-ud-mf.tagger -pLemmaDict /home/comp/eclipse-workspace/CoreNLP/src/edu/stanford/nlp/international/russian/process/dict.tsv -parser /home/comp/eclipse-workspace/CoreNLP/nndep.rus.modelMFWiki100HS400_80.txt.gz -pText /home/comp/eclipse-workspace/CoreNLP/input.txt -pResults /home/comp/eclipse-workspace/CoreNLP/output.conll -mf
 
 5. Other Requirements
-Java 1.8
-allocate at less  5 Gb for JVM:  -Xmx5g
-input file encoding: UTF-8
+Java 1.8  
+allocate at less  5 Gb for JVM:  -Xmx5g  
+input file encoding: UTF-8  
