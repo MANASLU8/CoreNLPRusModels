@@ -20,7 +20,7 @@ Obligatory Launcher parameters are the following:
 -pText, filepath to input file, encoding = UTF-8; /home/filepath/input_file.txt  
 -pResults, filepath to output file '.conll', format = CoNLL-U (http://universaldependencies.org/format.html).  
 
-4. Running from console:  
+4. Running from console example:  
 java -Xmx8g edu.stanford.nlp.international.russian.process.Launcher -tagger /home/comp/eclipse-workspace/CoreNLP/russian-ud-pos.tagger -taggerMF /home/comp/eclipse-workspace/CoreNLP/russian-ud-mf.tagger -pLemmaDict /home/comp/eclipse-workspace/CoreNLP/src/edu/stanford/nlp/international/russian/process/dict.tsv -parser /home/comp/eclipse-workspace/CoreNLP/nndep.rus.modelMFWiki100HS400_80.txt.gz -pText /home/comp/eclipse-workspace/CoreNLP/input.txt -pResults /home/comp/eclipse-workspace/CoreNLP/output.conll -mf  
 
 5. Other Requirements  
