@@ -25,5 +25,5 @@ java -Xmx8g edu.stanford.nlp.international.russian.process.Launcher -tagger russ
 
 5. Other Requirements  
 Java 1.8  
-allocate at less  5 Gb for JVM:  -Xmx5g  
+allocate at least  5 Gb for JVM:  -Xmx5g  
 input file encoding: UTF-8  
