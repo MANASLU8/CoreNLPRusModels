@@ -13,7 +13,7 @@ Stanford Tagger and NN Dependency Parser Models for Russian Language
 3. Build the project and run the Launcher  (edu.stanford.nlp.international.russian.process.Launcher).  
 Obligatory Launcher parameters are the following:  
   * `-tagger` - filepath to POS-tagging model russian-ud-pos.tagger;  
-  * `-taggerMF` - filepath to POS-tagging model  russian-ud-mf.tagger, which outputs POS-tags  with inflectional [morphological features (according to UD v.2)](http://universaldependencies.org/u/feat/index.html "http://universaldependencies.org/u/feat/index.html");  
+  * `-taggerMF` - filepath to POS-tagging model  russian-ud-mf.tagger, which outputs POS-tags  with inflectional [morphological features (according to UD v.2)](http://universaldependencies.org/u/feat/index.html "http://universaldependencies.org/u/feat/index.html"), and these morpho features are reused by the parsing model;  
   * `-mf` - if this flag is True, inflectional morphology is written to the FEATS field of the CoNLL annotations;  
   * `-parser` - dependency parser model, inventory of [syntactic relations meets UD v.2](http://universaldependencies.org/u/dep/index.html "http://universaldependencies.org/u/dep/index.html"), better start with the model nndep.rus.modelMFWiki100HS400_80.txt.gz, which uses embeddings, trained on Wikipedia dump;  
   * `-pLemmaDict` - filepath to dict.tsv, preferrably to put it to /CoreNLP/src/edu/stanford/nlp/international/russian/process directory;  
