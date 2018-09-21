@@ -1,4 +1,5 @@
 # CoreNLPRusModels
+
 Stanford Tagger and NN Dependency Parser Models for Russian Language
 
 1. [Parser models](https://drive.google.com/drive/folders/0B4TmAgcGLMriS3hhTkV5VEFPVEU?usp=sharing "drive.google")
@@ -30,3 +31,20 @@ java -Xmx8g edu.stanford.nlp.international.russian.process.Launcher -tagger russ
 * Java 1.8  
 * allocate at less  5 Gb for JVM:  -Xmx5g  
 * input file encoding: UTF-8  
+
+If you find the pipeline useful in your research, please consider citing our paper:
+```bash
+@inproceedings{DBLP:conf/kesw/KovriguinaSSP17,
+  author    = {Liubov Kovriguina and
+               Ivan Shilin and
+               Alexander Shipilo and
+               Alina Putintseva},
+  title     = {Russian Tagging and Dependency Parsing Models for Stanford CoreNLP
+               Natural Language Toolkit},
+  booktitle = {Knowledge Engineering and Semantic Web - 8th International Conference,
+               {KESW} 2017, Szczecin, Poland, November 8-10, 2017, Proceedings},
+  pages     = {101--111},
+  year      = {2017},
+  doi       = {10.1007/978-3-319-69548-8\_8}
+}
+```
