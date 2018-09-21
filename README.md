@@ -39,7 +39,7 @@ If you find the pipeline useful in your research, please consider citing our pap
                Ivan Shilin and
                Alexander Shipilo and
                Alina Putintseva},
-  title     = {Russian Tagging and Dependency Parsing Models \for Stanford CoreNLP
+  title     = {Russian Tagging and Dependency Parsing Models for Stanford CoreNLP
                Natural Language Toolkit},
   booktitle = {Knowledge Engineering and Semantic Web - 8th International Conference,
                {KESW} 2017, Szczecin, Poland, November 8-10, 2017, Proceedings},
